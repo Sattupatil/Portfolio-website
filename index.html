@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satish's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f9d02d5e12.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/sign.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">My Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <p>Full Stack Developer</p>
+                <h1>Hello, i'm <span>Satish</span> <br> from ADYPU,Pune</h1>
+            </div>
+        </div>
+    </div>
+    
+    <!--------About------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/prof.pic.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello Everyone, Myself Satishkumar and I am a dedicated and enthusiastic Bachelor of Computer Applications (BCA) student with a burning passion for software development,
+                        As an engineering student with a passion for technology, I am constantly exploring new and exciting opportunities to expand my skill set.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Skills</span><br>Java | Sql | Html/Css & js | OPPs | DBMS</li>
+                            <li><span>Languages</span><br>English | Hindi | Marathi | Telugu </li>
+                            <li><span>Interpersonal Skills</span><br>Teamwork | Communication</li>
+                        </ul>
+                    </div>      
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Student At ADYPU</span><br>Pursuing Bachelors Degree in Computer Science At ADYPU,Pune</li>
+                            
+                        </ul>
+                    </div>    
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Ajeenkya DY Patil University</span><br>BCA | 2022-Present</li>
+                            <li><span>Maharashtra State Board</span><br>HSC | 2019-2020</li>
+                            <li><span>Maharashtra State Board</span><br>SSC | 2017-2018</li>
+                          
+                        </ul>
+                    </div>              
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- ------ myprojects-- -->
+         <div id="project">
+            <div class="container">
+                <h1 class="sub-title">My Project</h1>
+                <div class="project-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Banking System</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo facilis quas doloremque quasi illo deleniti. Labore, rerum corrupti corporis voluptatibus eos optio porro, suscipit, odio magni sequi vitae voluptate.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Ecommers web</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo facilis quas doloremque quasi illo deleniti. Labore, rerum corrupti corporis voluptatibus eos optio porro, suscipit, odio magni sequi vitae voluptate.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Portfolio Website</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo facilis quas doloremque quasi illo deleniti. Labore, rerum corrupti corporis voluptatibus eos optio porro, suscipit, odio magni sequi vitae voluptate.</p>
+                    <a href="#">learn more</a>
+                </div>
+            
+            </div>
+         </div>
+        </div>
+        <!------portfolio------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>social media</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit magnam atque nesciunt sapiente itaque blanditiis est velit dicta pariatur a. Quia sed quam, aliquam alias officia quasi sit placeat aliquid?</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Games</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit magnam atque nesciunt sapiente itaque blanditiis est velit dicta pariatur a. Quia sed quam, aliquam alias officia quasi sit placeat aliquid?</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Music app</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit magnam atque nesciunt sapiente itaque blanditiis est velit dicta pariatur a. Quia sed quam, aliquam alias officia quasi sit placeat aliquid?</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+
+            </div>
+        </div>
+        <!-----------contact--------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>  Satishkumar.jadhav21@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>  8625042161</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/Satishkumar-Jadhav21"><i class="fa-brands fa-github"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="https://www.linkedin.com/in/satishkumar-jadhav/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="images/Jadhav_Satishkumar_cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="Email" name="Email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright @Satish.</p>
+            </div>
+        </div>
+
+        
+        
+         <script>
+            
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }  
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right="0";
+
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+
+            }
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwBAkoD3Gh9ix3627zEhvnwGPnAzqO-MOx2_475_50R02GjS9EzIaekKQ6nH5R-4adu8g/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById('msg')
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+   
+</body>
+</html>
